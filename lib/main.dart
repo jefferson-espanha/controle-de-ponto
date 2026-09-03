@@ -189,7 +189,7 @@ class _TelaPontoPrincipalState extends State<TelaPontoPrincipal> {
   String anoSelecionado = '2026';
 
   final List<String> diasSemana = [
-    "Segunda",
+    "Segunda dia de corno",
     "Terça",
     "Quarta",
     "Quinta",
