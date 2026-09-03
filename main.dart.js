@@ -49597,7 +49597,7 @@ break
 case 7:s=1
 break
 case 10:i=t.s
-h=B.b([B.b(["Data","Dia","Entrada","Alm.","Ret.","Sai.","Tot.","Comp.","Dev.","Obs"],i)],t.rj)
+h=B.b([B.b(["Data","Dia","Entrada","Almo\xe7o","Retorno","Sa\xedda","Total","Compensado","Devedora","Observa\xe7\xf5es"],i)],t.rj)
 for(g=o.z,f=g.length,e=o.y,d=0,c=0,b=0,a=0,a0=0;a0<g.length;g.length===f||(0,B.t)(g),++a0){a1=g[a0]
 a2=a1.b
 a3=a2.split("/")
@@ -49607,7 +49607,7 @@ a6=A.m.eg(B.b([a1.c,a1.d,a1.e,a1.f],i),new B.aAl())
 a7=A.p.A(a1.r.toUpperCase(),"AH:")
 a8=0
 a9=0
-if(a6||a7)if(A.m.eg(B.b(["F\xc9RIAS","ABONADA","ATESTADO","FERIADO","FACULTATIVO"],i),new B.aAm(a1)))b0=o.f
+if(a6||a7)if(A.m.eg(B.b(["F\xc9RIAS","ABONADA fodasse","ATESTADO","FERIADO","FACULTATIVO"],i),new B.aAm(a1)))b0=o.f
 else{if(B.RT(a4)<6){b1=o.f
 a8=a5-b1
 a8=a8>0?a8:0
