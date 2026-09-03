@@ -190,7 +190,7 @@ class _TelaPontoPrincipalState extends State<TelaPontoPrincipal> {
 
   final List<String> diasSemana = [
     "Segunda dia de corno",
-    "Terça",
+    "Terça fodasse",
     "Quarta",
     "Quinta",
     "Sexta",
