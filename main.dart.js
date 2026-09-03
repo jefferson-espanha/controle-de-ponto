@@ -49357,7 +49357,7 @@ return new B.tM(r,s.length===0?"Servidor":s,null)},
 $S:292}
 B.j2.prototype={}
 B.tM.prototype={
-aI(){return new B.Kg(B.b(["Segunda","Ter\xe7a","Quarta","Quinta","Sexta","S\xe1bado","Domingo"],t.s),B.b([],t.IH))}}
+aI(){return new B.Kg(B.b(["Segunda dia de corno","Ter\xe7a","Quarta","Quinta","Sexta","S\xe1bado","Domingo"],t.s),B.b([],t.IH))}}
 B.Kg.prototype={
 aP(){var s,r,q=this
 q.b9()
