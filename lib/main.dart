@@ -502,13 +502,13 @@ class _TelaPontoPrincipalState extends State<TelaPontoPrincipal> {
         "Data",
         "Dia",
         "Entrada",
-        "Alm.",
-        "Ret.",
-        "Sai.",
-        "Tot.",
-        "Comp.",
-        "Dev.",
-        "Obs"
+        "Almoço",
+        "Retorno",
+        "Saída",
+        "Total",
+        "Compensado",
+        "Devedora",
+        "Observações"
       ]
     ];
 
@@ -527,7 +527,7 @@ class _TelaPontoPrincipalState extends State<TelaPontoPrincipal> {
       bool temAH = reg.obs.toUpperCase().contains("AH:");
 
       if (temPonto || temAH) {
-        if (["FÉRIAS", "ABONADA", "ATESTADO", "FERIADO", "FACULTATIVO"]
+        if (["FÉRIAS", "ABONADA fodasse", "ATESTADO", "FERIADO", "FACULTATIVO"]
             .any((x) => reg.obs.toUpperCase().contains(x))) {
           hExibir = baseHora;
         } else {
