@@ -501,7 +501,7 @@ class _TelaPontoPrincipalState extends State<TelaPontoPrincipal> {
       [
         "Data",
         "Dia",
-        "Ent.",
+        "Entrada",
         "Alm.",
         "Ret.",
         "Sai.",
